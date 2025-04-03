@@ -1,35 +1,35 @@
 # Jogo-Pong.Py
-Jogo Pong – Como Funciona e Como Jogar
-O Pong é um jogo clássico de tênis de mesa digital. No nosso código, ele funciona assim:
+# 🏓 Jogo Pong em Python
+Este é um jogo **Pong** simples desenvolvido em **Python** utilizando a biblioteca `pygame`.
+---
+## 🚀 Como Jogar
+1. **Baixe ou clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/jogo-pong.git
+   cd jogo-pong
+   ```
+2. **Instale as dependências** (caso não tenha `pygame` instalado):
+   ```bash
+   pip install pygame
+   ```
+3. **Execute o jogo**:
+   ```bash
+   python ProjetoJogo.py
+   ```
+4. **Controles**:
+   - **Jogador 1 (Esquerda)**: `W` (sobe) e `S` (desce)
+   - **Jogador 2 (Direita)**: `↑` (sobe) e `↓` (desce)
 
-⚙️ Como Funciona
-Movimento da bola: A bola se move automaticamente e rebate nas bordas superiores e inferiores da tela.
+5. **Objetivo**:
+   - Rebata a bola e tente marcar pontos contra seu adversário.
+   - A pontuação é exibida no topo da tela e salva no arquivo `scores.txt`.
+---
+## 📌 Funcionalidades
+✅ Bola se move e rebate automaticamente 🔄  
+✅ Controles para dois jogadores 🎮  
+✅ Pontuação salva em um arquivo `.txt` 📝  
+✅ Código simples e fácil de entender 👨‍💻
+---
+## 📄 Licença
+Este projeto é de código aberto. Fique à vontade para contribuir! 🎉
 
-Controles dos jogadores:
-
-Jogador 1 (Esquerda): Usa as teclas W (sobe) e S (desce).
-
-Jogador 2 (Direita): Usa as setas ↑ (sobe) e ↓ (desce).
-
-Colisão: Se a bola tocar um dos paddles (raquetes), ela rebate para o lado oposto.
-
-Pontuação:
-
-Se a bola passar pela esquerda, o jogador da direita ganha 1 ponto.
-
-Se a bola passar pela direita, o jogador da esquerda ganha 1 ponto.
-
-A pontuação é exibida no topo da tela.
-
-Registro de pontuações: Cada ponto marcado é salvo no arquivo scores.txt.
-
-🎮 Como Jogar
-Execute o jogo no Python (python ProjetoJogo.py).
-
-Use W/S para controlar o jogador da esquerda.
-
-Use ↑/↓ para controlar o jogador da direita.
-
-O jogo continua até você fechar a janela.
-
-Objetivo: Defenda seu lado e tente fazer mais pontos que seu adversário! 
